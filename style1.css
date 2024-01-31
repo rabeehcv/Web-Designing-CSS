@@ -1,5 +1,6 @@
 h1{
-    color:black
+    text-align: justify;
+    color:rgb(14, 13, 13)
 }
 body{
     font-family:Arial, Helvetica, sans-serif;
@@ -7,4 +8,24 @@ body{
     background-size: cover;
     background-attachment: scroll;
     background-position: center;
+}
+.loginform{
+    background-color: #f6fdfb;
+    max-width:400px;
+    margin:50px auto;
+    opacity:0.8;
+    padding:20px;
+    border-color:brown;
+    border-radius: 8px;
+}
+label{
+    color:black;
+}
+input{
+    padding:3px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid rgb(8, 3, 3);
+    border-radius: 4px;
 }
